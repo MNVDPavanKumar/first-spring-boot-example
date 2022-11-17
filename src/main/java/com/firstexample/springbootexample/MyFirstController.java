@@ -11,6 +11,7 @@ public class MyFirstController {
     @GetMapping
     public String helloWorld()
     {
+        System.out.println("Testing");
         return "Hello, Welcome to springboot";
     }
 }
